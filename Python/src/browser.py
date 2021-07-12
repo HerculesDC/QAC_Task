@@ -16,7 +16,7 @@ class Browser():
         if self.browser:
             self.set_page()
             self.set_root()
-            #self.find_columns()
+            self.find_columns()
             self.quit()
 
     def set_browser(self, browser_):
