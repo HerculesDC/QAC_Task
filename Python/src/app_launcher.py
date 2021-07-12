@@ -15,7 +15,7 @@ class AppLauncher():
             app.set_browser(Firefox())
         elif browser.title() == "Chrome":
             app.set_browser(Chrome())
-        elif browser.title == "Edge":
+        elif browser.title() == "Edge":
             op = EdgeOptions()
             op.use_chromium = True
             app.set_browser(Edge(options = op))
