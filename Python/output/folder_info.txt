@@ -1,0 +1,2 @@
+Output folder.
+Expected filenames: Year-Month-Date HourMinuteSecondFloat_BrowserName.log
