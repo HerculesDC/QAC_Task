@@ -1,0 +1,11 @@
+{
+    "browser":"Firefox",
+    "webpage":"https://www.bloomberg.com/markets/currencies",
+    "element-class":"data-table",
+    "column-class":"data-table-headers-cell",
+    "column_names":{"Change":false, "Net Change":true},
+    "row-class":"data-table-row",
+    "cell-class":"data-table-row-cell",
+    "cell_attribute":"data-type",
+    "criteria":{">=0":"better", "<0":"worse"}
+}
